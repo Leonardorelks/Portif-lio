@@ -23,18 +23,9 @@
     justify-items: center;
     height: 100vh;
     color: #aeaeae;
-    animation: zoom 3s;
   }
-@keyframes zoom {
-  0% {
-    transform :scale(1.4)
-  }
-  100%{
-    transform: scale(1)
-  }
+
 }
-
-
   .container {
     padding: 0 16px;
   }
