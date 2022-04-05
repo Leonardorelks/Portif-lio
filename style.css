@@ -4,6 +4,21 @@
     padding: 0;
   }
   
+  .title{
+    width: 100%;
+    animation: title 4s steps(40);
+    cursor: .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+  }
+  @keyframes title {
+    from{
+      width: 0;
+    }
+  }
+
   img {
     display: block;
     max-width: 100%;
